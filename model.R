@@ -1,4 +1,10 @@
 
+install.packages("arm", dependencies = TRUE) # need to install first nloptr. if using conda run "conda install -c r r-nloptr" on command line
+install.packages("caret", dependencies = TRUE)
+install.packages("gbm", dependencies = TRUE)
+install.packages("doMC", dependencies = TRUE)
+# install.packages("e1071", dependencies = TRUE) install from conda: conda install -c r r-e1071
+
 library(arm)
 library(caret)
 library(gbm)

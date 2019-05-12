@@ -1,0 +1,5 @@
+https://www.kaggle.com/c/GiveMeSomeCredit/data
+
+Run:
+
+kaggle competitions download -c GiveMeSomeCredit
